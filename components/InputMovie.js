@@ -1,15 +1,13 @@
-export default function InputMovie(){
-  
-  return(
-  
-    <label id="inputMovie" className="flex flex-col items-center">
-      Search Movie
-      <input
-      className="outline-0 bg-transparent h-8 w-3/4 px-3 rounded-full border-2 border-zinc-500"
+export default function InputMovie() {
+
+  return (
+
+    <input
+      className="bg-gray-200 appearance-none border-2 border-gray-200 rounded-lg w-1/2 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 m-7"
       type="text"
-      name="inputMovie"/>
-    </label>
-  
+      placeholder="Enter Movie Title..."
+      name="inputMovie" />
+
   )
-  
+
 }
